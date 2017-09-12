@@ -1,0 +1,33 @@
+h1{
+    color: #EE0B0E;
+    margin-bottom: 10px;
+}
+
+i{
+    color:orange;
+    font-family: serif;
+    font-size: 200%;
+}
+
+p{
+    color: orange;
+}
+
+ul li{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+ul a{
+    color: white;
+    background-color: red;
+    
+    padding: 3px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+body{
+    text-align: center;
+}

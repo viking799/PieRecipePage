@@ -1,0 +1,79 @@
+.title{
+    font-size: 22pt;
+    font-weight: bold;
+    text-align: center;
+    }
+
+h1{
+    letter-spacing: 0.25em;
+    font-size: 18pt;
+    color: #a4a400;
+    text-decoration: underline;
+    background-color: #f0f0f0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Arial;    
+}
+
+p{
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ol{
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tbsp{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tbsp {
+    visibility: visible;
+}
+
+b{
+    font-weight: bold;
+}
+
+.quotation{
+    display: block;
+    background-color: #ffffa8;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+a{
+    color: #a4a400;
+    font-size: 11pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background: url(silverware.jpg) repeat fixed top;
+}
+
+.copyright{
+    text-align: right;
+}
+
+.copybox{
+    width: 220px;
+}
